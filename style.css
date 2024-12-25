@@ -1,30 +1,30 @@
-/* Set the entire page's background and center content vertically */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #f8b195, #355c7d); /* Gradient background */
+    background: linear-gradient(to bottom, #f8b195, #355c7d); 
     color: #ffffff;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Vertical centering */
-    min-height: 100vh; /* Full viewport height */
+    flex-direction: column; 
+    justify-content: center; 
+    min-height: 100vh; 
 }
 
-/* Center the content and add some padding */
+
 .container {
-    text-align: top; /* Align text to the left */
-    margin: 0 auto; /* Keep the container in the center horizontally */
-    background-color: rgba(0, 0, 0, 0.7); /* Transparent black background for content */
+    text-align: top; 
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7); 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    width: 80%; /* Take 80% of the viewport width */
-    max-width: 800px; /* Prevent it from stretching too wide */
+    width: 80%; 
+    max-width: 800px; 
 }
 
-/* Style the table */
+
 table {
-    margin: 0 auto; /* Center the table */
+    margin: 0 auto; 
     border-collapse: collapse;
     width: 100%;
 }
@@ -38,9 +38,9 @@ th, td {
     text-align: left;
 }
 
-/* Style links */
+
 a {
-    color: #ffd700; /* Gold color for links */
+    color: #ffd700; 
     text-decoration: none;
 }
 
@@ -48,14 +48,14 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Style the iframe (YouTube video) */
+
 iframe {
     margin-top: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* Style the image */
+
 img {
     border-radius: 10px;
     margin-top: 20px;
